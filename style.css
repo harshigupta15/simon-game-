@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: all 0.1s ease-in-out;
+}
+
+.green { background-color: #00A74A; }
+.red { background-color: #FF4C4C; }
+.yellow { background-color: #FDFD96; }
+.blue { background-color: #1C8CFF; }
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  opacity: 0.5;
+}
